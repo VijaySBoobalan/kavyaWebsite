@@ -7,7 +7,8 @@
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="{{ route('home') }}"><i class="icofont-home"></i></a></li>
-					<li class="breadcrumb-item active" aria-current="page">Services</li>
+					<li class="breadcrumb-item active" aria-current="page"><a href="{{ route('services') }}">Services</a></li>
+          <li class="breadcrumb-item active" aria-current="page">WareHouse & Hub Operations</li>
 				</ol>
 			</nav>
 			<h1>Services</h1>
@@ -21,7 +22,33 @@
   <!-- Main Body Content Start -->
   <main id="body-content">
 
-    <!-- Welcome To Cargo Start -->
+    <!-- What We Offer Start -->
+    <section class="wide-tb-80 bg-fixed what-we-offer">
+      <div class="container pos-rel">
+        <div class="row align-items-center">
+
+          <div class="col-md-6">            
+            <h2 class="mb-4 fw-7 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
+              Quality <span class="fw-3 txt-kavya-blue">and</span> Performance <br><span class="fw-3 txt-kavya-blue">at the right price</span>
+            </h2>
+
+            <p class="wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">Energistically utilize team driven niche markets rather than leveraged platforms. Monotonectally restore tactical "outside the box" thinking and technically sound deliverables. </p>
+
+            <p class="wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.4s">Compellingly develop fully researched process improvements through innovative opportunities. Credibly productize highly efficient potentialities for vertical core competencies. Quickly maintain pandemic experiences rather than low-risk high-yield processes.</p>
+          </div>
+
+
+          <div class="col-md-6">            
+            
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+    <!-- What We Offer End -->
+
+
     <section class="bg-white wide-tb-100">
       <div class="container">
         <div class="row">
@@ -76,52 +103,6 @@
           </div>
           <!-- Icon Box 1 -->
 
-        </div>
-      </div>
-      <BR>
-      <div class="container">
-        <div class="row">
-          <!-- Icon Box 1 -->
-          <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.1s">    
-            <a href="{{ route('WHOperations') }}">          
-              <div class="icon-box-1">
-                <img src="{{ url('assets/images/blog_img_10.jpg') }}" alt="">
-                <div class="text">
-                  <i class="icofont-fork-lift"></i>
-                  WAREHOUSE & HUB OPERATIONS
-                </div>
-              </div>              
-            </a>
-          </div>
-          <!-- Icon Box 1 -->
-
-          <!-- Icon Box 1 -->
-          <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.4s">
-            <a href="{{ route('ContractLogistics') }}">
-              <div class="icon-box-1">
-                <img src="{{ url('assets/images/blog_img_9.jpg') }}" alt="">
-                <div class="text">
-                  <i class="icofont-exchange"></i>
-                  CONTRACT LOGISTICS
-                </div>
-              </div>
-            </a>              
-          </div>
-          <!-- Icon Box 1 -->
-
-          <!-- Icon Box 1 -->
-          <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.6s">
-            <a href="{{ route('CargoExpress') }}">          
-              <div class="icon-box-1">
-                <img src="{{ url('assets/images/blog_img_2.jpg') }}" alt="">
-                <div class="text">
-                  <i class="icofont-runner-alt-1"></i>
-                  CARGO EXPRESS
-                </div>
-              </div>    
-            </a>          
-          </div>
-          <!-- Icon Box 1 -->
         </div>
       </div>
     </section>
