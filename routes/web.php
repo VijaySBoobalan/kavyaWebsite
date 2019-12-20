@@ -54,3 +54,27 @@ Route::get('/electronics_industries', function () {
 Route::get('/services', function () {
     return view('services.service');
 })->name('services');
+
+Route::get('/services/Ocean', function () {
+    return view('services.ocean');
+})->name('Ocean');
+
+Route::get('/services/AirFright', function () {
+    return view('services.air_fright');
+})->name('AirFright');
+
+Route::get('/services/RoadTransport', function () {
+    return view('services.road_transport');
+})->name('RoadTransport');
+
+Route::get('/services/WHOperations', function () {
+    return view('services.warehouse');
+})->name('WHOperations');
+
+Route::get('/services/ContractLogistics', function () {
+    return view('services.contract_logistics');
+})->name('ContractLogistics');
+
+Route::get('/services/CargoExpress', function () {
+    return view('services.cargo-express');
+})->name('CargoExpress');

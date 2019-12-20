@@ -7,7 +7,8 @@
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="{{ route('home') }}"><i class="icofont-home"></i></a></li>
-					<li class="breadcrumb-item active" aria-current="page">Services</li>
+					<li class="breadcrumb-item active" aria-current="page"><a href="{{ route('services') }}">Services</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Air Fright</li>
 				</ol>
 			</nav>
 			<h1>Services</h1>
@@ -21,66 +22,44 @@
   <!-- Main Body Content Start -->
   <main id="body-content">
 
+    <!-- What We Offer Start -->
+    <section class="wide-tb-80 bg-fixed what-we-offer">
+      <div class="container pos-rel">
+        <div class="row align-items-center">
+
+          <div class="col-md-6">            
+            <h2 class="mb-4 fw-7 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0s">
+              Quality <span class="fw-3 txt-kavya-blue">and</span> Performance <br><span class="fw-3 txt-kavya-blue">at the right price</span>
+            </h2>
+
+            <p class="wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.2s">Energistically utilize team driven niche markets rather than leveraged platforms. Monotonectally restore tactical "outside the box" thinking and technically sound deliverables. </p>
+
+            <p class="wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.4s">Compellingly develop fully researched process improvements through innovative opportunities. Credibly productize highly efficient potentialities for vertical core competencies. Quickly maintain pandemic experiences rather than low-risk high-yield processes.</p>
+          </div>
+
+
+          <div class="col-md-6">            
+            
+          </div>
+
+        </div>
+        
+      </div>
+    </section>
+    <!-- What We Offer End -->
+
+
     <!-- Welcome To Cargo Start -->
-    <section class="bg-white wide-tb-100">
+<section class="bg-white wide-tb-100">
+       
       <div class="container">
         <div class="row">
-          <!-- Heading Main -->
           <div class="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
             <h1 class="heading-main">
               <span>what we offer</span>
-              Our Main Services
+              Suggested Our Main Services
             </h1>
           </div>
-          <!-- Heading Main -->
-
-          <!-- Icon Box 1 -->
-          <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.1s">    
-            <a href="{{ route('Ocean') }}">          
-              <div class="icon-box-1">
-                <img src="{{ url('assets/images/icon-box-3.jpg') }}" alt="">
-                <div class="text">
-                  <i class="icofont-ship"></i>
-                  OCEAN
-                </div>
-              </div>              
-            </a>
-          </div>
-          <!-- Icon Box 1 -->
-
-          <!-- Icon Box 1 -->
-          <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.4s">
-            <a href="{{ route('AirFright') }}">
-              <div class="icon-box-1">
-                <img src="{{ url('assets/images/icon-box-2.jpg') }}" alt="">
-                <div class="text">
-                  <i class="icofont-airplane-alt"></i>
-                  AIR FRIGHTS
-                </div>
-              </div>
-            </a>              
-          </div>
-          <!-- Icon Box 1 -->
-
-          <!-- Icon Box 1 -->
-          <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.6s">
-            <a href="{{ route('RoadTransport') }}">          
-              <div class="icon-box-1">
-                <img src="{{ url('assets/images/icon-box-1.jpg') }}" alt="">
-                <div class="text">
-                  <i class="icofont-vehicle-delivery-van"></i>
-                  ROAD TRANSPOTATION
-                </div>
-              </div>    
-            </a>          
-          </div>
-          <!-- Icon Box 1 -->
-
-        </div>
-      </div>
-      <BR>
-      <div class="container">
-        <div class="row">
           <!-- Icon Box 1 -->
           <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.1s">    
             <a href="{{ route('WHOperations') }}">          
@@ -125,6 +104,7 @@
         </div>
       </div>
     </section>
+    <!-- Welcome To Cargo End -->
     <!-- Welcome To Cargo End -->
 
     <!-- What Makes Us Special Start -->
