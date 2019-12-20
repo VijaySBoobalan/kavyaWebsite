@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('index');
 })->name('home');
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
+Route::get('/auto_parts', function () {
+    return view('auto_parts');
+})->name('auto_parts');
+
+Route::get('/engineering', function () {
+    return view('engineering');
+})->name('engineering');
+
+Route::get('/services', function () {
+    return view('services.service');
+})->name('services');

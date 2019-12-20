@@ -56,20 +56,20 @@
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="about-us.html">About Us</a>
+                <a class="nav-link" href="{{ route('about') }}">About Us</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle-mob" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages <i class="icofont-rounded-down"></i></a>
+                <a class="nav-link dropdown-toggle-mob" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Our Service Industry <i class="icofont-rounded-down"></i></a>
                 <ul class="dropdown-menu">                  
-                  <li><a class="dropdown-item" href="shortcodes-element.html">Shortcode Elements</a></li>
-                  <li><a class="dropdown-item" href="typography.html">Typography</a></li>                  
-                  <li><a class="dropdown-item" href="request-page.html">Request Quote</a></li>
+                  <li><a class="dropdown-item" href="{{ route('auto_parts') }}">Auto Parts</a></li>
+                  <li><a class="dropdown-item" href="{{ route('engineering') }}">Engineering</a></li>                  
+                  <li><a class="dropdown-item" href="{{ route('auto_parts') }}">Request Quote</a></li>
                   <li><a class="dropdown-item" href="pricing-plan.html">Our Pricing</a></li>
                   <li><a class="dropdown-item" href="404-page.html">404 Page</a></li>                  
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="services.html">Services</a>
+                <a class="nav-link" href="{{ route('services') }}">Services</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle-mob" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects <i class="icofont-rounded-down"></i></a>

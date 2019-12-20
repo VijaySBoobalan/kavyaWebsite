@@ -893,6 +893,7 @@ footer .social-icons a:hover{
 }
 .header-fullpage.fixed .navbar-brand {
     width: 140px;
+    height: 80px;
     padding: 1rem;
 }
 .header-fullpage.fixed.navbar-expand-md .navbar-nav .nav-item, 
@@ -942,7 +943,7 @@ footer .social-icons a:hover{
 .top-transparent .navbar-nav .nav-item:hover > a,
 .top-transparent .navbar-nav .nav-link:hover{
     background: #f4f4f4;
-    color: #ff3514;
+    color: rgba(0, 170, 240,1);
 }
 .top-transparent .navbar-nav .active .nav-link{
     color: #ff3514;

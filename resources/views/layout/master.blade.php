@@ -19,9 +19,13 @@
   </div>
   
 	@include('layout.menu')
-	@include('layout.slider')
+
+  @yield('slider')
+
   @yield('content')
+
 	@include('layout.footer')
+  
 	@include('layout.footer_script')
 
 
