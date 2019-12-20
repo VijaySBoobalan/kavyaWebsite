@@ -43,6 +43,14 @@ Route::get('/steel_coils', function () {
     return view('/Our_Service_Industry/steel_coils');
 })->name('steel_coils');
 
+Route::get('/paper_board_industries', function () {
+    return view('/Our_Service_Industry/paper_board_industries');
+})->name('paper_board_industries');
+
+Route::get('/electronics_industries', function () {
+    return view('/Our_Service_Industry/electronics_industries');
+})->name('electronics_industries');
+
 Route::get('/services', function () {
     return view('services.service');
 })->name('services');

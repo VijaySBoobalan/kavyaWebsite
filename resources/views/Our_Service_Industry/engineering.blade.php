@@ -69,6 +69,8 @@
                       <li><a href="{{ route('food_industry') }}">Food Industry</a></li>
                       <li><a href="{{ route('construction_industry') }}">Construction Industry</a></li>
                       <li><a href="{{ route('steel_coils') }}">Steels & Coils</a></li>
+                      <li><a href="{{ route('paper_board_industries') }}">Paper & Paper Board Industries</a></li>
+                      <li><a href="{{ route('electronics_industries') }}">Electronics Industries</a></li>
                     </ul>                  
                   </div>
                 </div>
