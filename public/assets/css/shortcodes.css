@@ -1681,7 +1681,7 @@
 /*    Page Loader
 /*------------------------------------------*/
 #pageloader {
-    background:#FFF;
+    background:#00a8f0;
     height: 100%;
     position: fixed;
     width: 100%;	
@@ -1692,7 +1692,7 @@
 	font-weight:400;
 	text-align:center;
 	top: 0;
-    background: #ff3514 url(../images/bg-wave.svg) no-repeat;
+    background: #00a8f0 url(../images/bg-wave.svg) no-repeat;
 	background-size: contain;
     background-position: bottom center;
 }
