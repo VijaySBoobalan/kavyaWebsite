@@ -960,7 +960,7 @@ footer .social-icons a:hover{
 }
 .top-border .top-bar-right{
     color: #1f1f1f !important;
-    background: #FFF;
+    background: #00A8F0;
     border-bottom: 4px solid #fafafa;
 }
 .top-border .top-bar-right i{
@@ -978,7 +978,7 @@ footer .social-icons a:hover{
 /* Header With Top Bordered */
 .bordered-nav .top-bar-right {
     padding: 1rem 0;
-    color: #FFF;
+    color: #00A8F0;
 }
 .bordered-nav.top-transparent nav {
     background: transparent !important;
@@ -1085,6 +1085,7 @@ footer .social-icons a:hover{
 /*------------------------------------------*/
 .top-bar-right{
     padding: 0.9rem 0 0 0;
+    background-color: #00A8F0;
 }
 .request-btn a{
     border-radius: 4px;
