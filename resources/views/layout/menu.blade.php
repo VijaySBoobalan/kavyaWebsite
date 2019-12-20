@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-lg bg-transparent">
       <div class="container p-0 text-nowrap">
         <div class="d-flex align-items-center w-100 col pl-0">
-          <a class="navbar-brand rounded-bottom light-bg" href="index3.html">
+          <a class="navbar-brand rounded-bottom light-bg" href="{{ route('home') }}">
             <img src="{{ url('assets/images/logo1.jpeg') }}" alt="">
           </a> 
         </div>

@@ -473,20 +473,20 @@
           <!-- Heading Main -->
           <div class="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
             <h1 class="heading-main">
-              <span>WELCOME TO</span>
-              Kavya Transports
+              <span>what we offer</span>
+              Our Main Services
             </h1>
           </div>
           <!-- Heading Main -->
 
           <!-- Icon Box 1 -->
           <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.1s">    
-            <a href="service-details.html">          
+            <a href="{{ route('Ocean') }}">          
               <div class="icon-box-1">
-                <img src="{{ url('assets/images/icon-box-1.jpg') }}" alt="">
+                <img src="{{ url('assets/images/icon-box-3.jpg') }}" alt="">
                 <div class="text">
-                  <i class="icofont-vehicle-delivery-van"></i>
-                  Road Transportation
+                  <i class="icofont-ship"></i>
+                  OCEAN
                 </div>
               </div>              
             </a>
@@ -495,12 +495,12 @@
 
           <!-- Icon Box 1 -->
           <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.4s">
-            <a href="service-details.html">
+            <a href="{{ route('AirFright') }}">
               <div class="icon-box-1">
                 <img src="{{ url('assets/images/icon-box-2.jpg') }}" alt="">
                 <div class="text">
                   <i class="icofont-airplane-alt"></i>
-                  Ocean
+                  AIR FRIGHTS
                 </div>
               </div>
             </a>              
@@ -509,12 +509,12 @@
 
           <!-- Icon Box 1 -->
           <div class="col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.6s">
-            <a href="service-details.html">          
+            <a href="{{ route('RoadTransport') }}">          
               <div class="icon-box-1">
-                <img src="{{ url('assets/images/icon-box-3.jpg') }}" alt="">
+                <img src="{{ url('assets/images/icon-box-1.jpg') }}" alt="">
                 <div class="text">
-                  <i class="icofont-ship"></i>
-                  Warehouse & Hub Operations
+                  <i class="icofont-vehicle-delivery-van"></i>
+                  ROAD TRANSPOTATION
                 </div>
               </div>    
             </a>          
@@ -935,7 +935,7 @@
             <!-- Blog Items -->
             <div class="col-sm-12 col-md-4 wow fadeInLeft" data-wow-duration="0" data-wow-delay="0.1s">
                 <div class="blog-warp">
-                  <img src="{{ url('images/blog_img_1.jpg') }}" alt="" class="rounded">
+                  <img src="{{ url('assets/images/blog_img_1.jpg') }}" alt="" class="rounded">
                   <div class="meta-box"><a href="#">Business</a> <span>/</span>    September 28, 2018</div>
                   <h4 class="h4-md mb-3"><a href="#">Freight Payment and Auditing Services</a></h4>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiumg</p>
@@ -946,7 +946,7 @@
             <!-- Blog Items -->
             <div class="col-sm-12 col-md-4 wow fadeInUp" data-wow-duration="0" data-wow-delay="0.1s">
                 <div class="blog-warp">
-                  <img src="{{ url('images/blog_img_2.jpg') }}" alt="" class="rounded">
+                  <img src="{{ url('assets/images/blog_img_2.jpg') }}" alt="" class="rounded">
                   <div class="meta-box"><a href="#">Business</a> <span>/</span>    September 28, 2018</div>
                   <h4 class="h4-md mb-3"><a href="#">Freight Payment and Auditing Services</a></h4>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiumg</p>
@@ -957,7 +957,7 @@
             <!-- Blog Items -->
             <div class="col-sm-12 col-md-4 wow fadeInRight" data-wow-duration="0" data-wow-delay="0.1s">
                 <div class="blog-warp">
-                  <img src="{{ url('images/blog_img_3.jpg') }}" alt="" class="rounded">
+                  <img src="{{ url('assets/images/blog_img_3.jpg') }}" alt="" class="rounded">
                   <div class="meta-box"><a href="#">Business</a> <span>/</span>    September 28, 2018</div>
                   <h4 class="h4-md mb-3"><a href="#">Freight Payment and Auditing Services</a></h4>
                   <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantiumg</p>
