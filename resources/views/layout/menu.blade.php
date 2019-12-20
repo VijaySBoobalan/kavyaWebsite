@@ -3,25 +3,23 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col">
-            <i class="icofont-google-map"></i>  254 Street Avenue, Los Angeles, LA 2415 US
+            <i class="icofont-google-map"></i>  Kavya Transports
           </div>
           <div class="col-md-auto">
 
-            <span class="mr-3"><i class="icofont-ui-touch-phone"></i> +00 41 895 785 6985</span>
+            <span class="mr-3"><i class="icofont-ui-touch-phone"></i> +91 90472 44000</span>,
+            <span class="mr-3"><i class="icofont-ui-touch-phone"></i> +91 94868 71772</span>,
+            <span class="mr-3"><i class="icofont-ui-touch-phone"></i> +91 93845 45215</span>
 
-            <span class="mr-3"><i class="icofont-ui-email"></i> Email Us</span>
+            <span class="mr-3"><i class="icofont-ui-email"></i> Email Us : info@kavyatransports.com</span>
             <!-- Topbar Language Dropdown Start -->
               <div class="dropdown d-inline-flex lang-toggle shadow-sm">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-hover="dropdown" data-animations="slideInUp slideInUp slideInUp slideInUp">
-                  <img src="{{ url('assets/images/us.svg') }}" alt="" class="dropdown-item-icon"> 
-                  <span class="d-inline-block d-lg-none">US</span>
-                  <span class="d-none d-lg-inline-block">United States</span> <i class="icofont-rounded-down"></i>
+                  <img src="{{ url('assets/images/ind.png') }}" alt="" class="dropdown-item-icon"> 
+                  <span class="d-inline-block d-lg-none">INR</span>
+                  <span class="d-none d-lg-inline-block">India</span> <i class="icofont-rounded-down"></i>
                 </a>
-                <div class="dropdown-menu dropdownhover-bottom dropdown-menu-right" role="menu">
-                  <a class="dropdown-item active" href="#">English</a>
-                  <a class="dropdown-item" href="#">Deutsch</a>
-                  <a class="dropdown-item" href="#">Español&lrm;</a>
-                </div>
+                
               </div>            
               <!-- Topbar Language Dropdown End -->        
           </div>
@@ -74,7 +72,7 @@
               <li class="nav-item">
                 <a class="nav-link" href="{{ route('services') }}">Services</a>
               </li>
-              <li class="nav-item dropdown">
+              {{-- <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle-mob" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects <i class="icofont-rounded-down"></i></a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="project-grid.html">Projects Grid</a></li>
@@ -90,13 +88,9 @@
                   <li><a class="dropdown-item" href="blog-grid.html">Blog Grid</a></li>
                   <li><a class="dropdown-item" href="blog-single.html">Blog Single</a></li>
                 </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle-mob" href="index.html" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Contact <i class="icofont-rounded-down"></i></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
-                  <li><a class="dropdown-item" href="contact-us-option.html">Contact Us Option</a></li>
-                </ul>
+              </li> --}}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ route('Contact') }}">Contact Us</a>
               </li>
           </ul>
           <!-- Main Navigation End -->

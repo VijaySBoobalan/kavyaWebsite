@@ -70,3 +70,7 @@ Route::get('/services/ContractLogistics', function () {
 Route::get('/services/CargoExpress', function () {
     return view('services.cargo-express');
 })->name('CargoExpress');
+
+Route::get('/Contact-Us', function () {
+    return view('contact');
+})->name('Contact');
