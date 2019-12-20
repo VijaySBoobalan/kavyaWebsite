@@ -80,5 +80,5 @@ Route::get('/services/CargoExpress', function () {
 })->name('CargoExpress');
 
 Route::get('/Contact-Us', function () {
-    return view('contact');
+    return view('contact/contact');
 })->name('Contact');

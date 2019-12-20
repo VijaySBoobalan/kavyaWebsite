@@ -80,7 +80,7 @@
               <a href="#">Privacy Policy</a>   <span>|</span>   <a href="#">CONTACT</a>   <span>|</span>   <a href="#">FAQS</a>
             </div>
             <div class="col-sm-12 col-md-6 text-md-right text-center">
-                  Designed by <a href="#" rel="nofollow">MannatStudio</a> © 2019 All Rights Reserved
+                  Designed by <a href="#" rel="nofollow">Greefi Technologies</a> © 2019 All Rights Reserved
             </div>
         </div>
       </div>
