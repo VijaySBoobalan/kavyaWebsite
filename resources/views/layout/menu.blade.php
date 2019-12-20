@@ -68,7 +68,11 @@
                   <li><a class="dropdown-item" href="{{ route('merine') }}">Merine</a></li>
                   <li><a class="dropdown-item" href="{{ route('food_industry') }}">Food Industry</a></li>
                   <li><a class="dropdown-item" href="{{ route('construction_industry') }}">Construction Industry</a></li>                  
-                  <li><a class="dropdown-item" href="{{ route('steel_coils') }}">Steel & Coils</a></li>                  
+                  <li><a class="dropdown-item" href="{{ route('steel_coils') }}">Steel & Coils</a></li>
+
+                  <li><a class="dropdown-item" href="{{ route('paper_board_industries') }}">Paper & Paper Board Industries</a></li>                    
+                  <li><a class="dropdown-item" href="{{ route('electronics_industries') }}">Electronics Industries</a></li>                  
+                                  
                 </ul>
               </li>
               <li class="nav-item">

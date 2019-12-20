@@ -11,7 +11,7 @@
 					<li class="breadcrumb-item active" aria-current="page">Auto Parts</li>
 				</ol>
 			</nav>
-			<h1>Food Industry</h1>
+			<h1>Electronics Industries</h1>
 			<div class="breadcrumbs-description">
 				Meet the amazing team behind this project and find out more about how we work.
 			</div>
