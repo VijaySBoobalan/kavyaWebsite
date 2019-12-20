@@ -63,9 +63,10 @@
                 <ul class="dropdown-menu">                  
                   <li><a class="dropdown-item" href="{{ route('auto_parts') }}">Auto Parts</a></li>
                   <li><a class="dropdown-item" href="{{ route('engineering') }}">Engineering</a></li>                  
-                  <li><a class="dropdown-item" href="{{ route('auto_parts') }}">Request Quote</a></li>
-                  <li><a class="dropdown-item" href="pricing-plan.html">Our Pricing</a></li>
-                  <li><a class="dropdown-item" href="404-page.html">404 Page</a></li>                  
+                  <li><a class="dropdown-item" href="{{ route('merine') }}">Merine</a></li>
+                  <li><a class="dropdown-item" href="{{ route('food_industry') }}">Food Industry</a></li>
+                  <li><a class="dropdown-item" href="{{ route('construction_industry') }}">Construction Industry</a></li>                  
+                  <li><a class="dropdown-item" href="{{ route('steel_coils') }}">Steel & Coils</a></li>                  
                 </ul>
               </li>
               <li class="nav-item">
